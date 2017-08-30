@@ -10,7 +10,7 @@ class Templates extends MX_Controller
     }
     function test(){
         $data = "";
-        $this->public_bootstrap($data);
+        $this->public_jqm($data);
     }
     function public_bootstrap($data){
         $this->load->view('public_bootstrap',$data);
